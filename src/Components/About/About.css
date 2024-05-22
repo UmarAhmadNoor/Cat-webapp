@@ -1,0 +1,47 @@
+.story1 {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.story1 .storyy {
+  position: absolute;
+  background-size: cover;
+  object-position: center;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  border: 2px solid yellow;
+}
+.st1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 75px;
+}
+.des {
+  max-width: 650px;
+  height: auto;
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-weight: 500px;
+  font-family: Rajdhani;
+}
+.heading {
+  font-family: "Glaive";
+  font-weight: 400;
+  font-size: 50px;
+  color: white;
+}
+.styleee {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
